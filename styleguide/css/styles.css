@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 
+{ 
+	color: #000000;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 16px
+}
+
+h2
+{
+	color: #FA9BBC;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800
+}
+
+h3{
+	color: #FA9BBC;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600
+}
+
+h4{
+	color: #FA9BBC;
+	font-family: 'Work Sans', sans-serif;
+	
+}
+p{
+	color: #FA9BBC;
+	font-family: 'Work Sans', sans-serif;	
+}
+
+a{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+a:link {color:#FA9BBC; text-decoration:none;}
+a:visited {color:#FA9BBC}
+a:hover {color:#FFB614}
+a:active {} 
+
+//<!--Style Guide: 
+//Typography: Komika Title - Paint regular 
+//Header: 
+//Subheader:
+//Body:
+//Colors: -->
+
