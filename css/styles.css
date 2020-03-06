@@ -15,7 +15,7 @@ li {display:inline-block;} /*turns list items horizontal*/
 li a {display: block; width:130px; font-size: 18px; font-weight: 500}/*note: the width of the tabs is 150px so the 10px padding left and right has to be subtracted from the width on the code*/
  
 a:link {color:#FC5A28; text-align:center; text-decoration:none;} 
-a:visited {color:#FA9BBC;}
+a:visited {color:#FC5A28;}
 a:hover {color:#4D97CD;}
 
 #content {height:750px; background-color:#ffffff;}/*heights should be deleted once you add content*/
