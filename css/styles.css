@@ -6,7 +6,7 @@
 body {font-family: 'Work Sans'; font-size:12px; margin-top:0;}
 
 #wrapper {width: 100%; background-color:antiquewhite; margin-left:auto; margin-right:auto;}/*can also be written as: margin: 0 auto;*/
-
+#linked-logo {width: 300px;margin:0}
 header {height:155px; background-color:#ffffff;}/*heights should be deleted once you add content*/
 #logo {width:300px;margin:0 auto; vertical-align: middle}
 nav {width:100%; margin:0 austo;text-align: center}
