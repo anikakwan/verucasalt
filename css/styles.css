@@ -5,6 +5,8 @@
 
 body {font-family: 'Work Sans'; font-size:12px; margin-top:0;}
 
+#empty-cart {font-size: 20px; font-weight: 500; text-align: center; display: flex; justify-content: center; align-items: center; height: 200px;
+  border: 2px solid #FC5A28;} /*delete border after*/
 #wrapper {width: 100%; background-color:antiquewhite; margin-left:auto; margin-right:auto;}/*can also be written as: margin: 0 auto;*/
 #linked-logo {width: 300px;margin:0}
 header {height:155px; background-color:#ffffff;}/*heights should be deleted once you add content*/
@@ -13,7 +15,7 @@ nav {width:100%; margin:0 austo;text-align: center}
 ul {margin-left:0; padding-left:0;} /*overwrites default bullet points and padding*/
 li {display:inline-block;} /*turns list items horizontal*/
 li a {display: block; width:130px; font-size: 18px; font-weight: 500}/*note: the width of the tabs is 150px so the 10px padding left and right has to be subtracted from the width on the code*/
- 
+
 a:link {color:#FC5A28; text-align:center; text-decoration:none;} 
 a:visited {color:#FC5A28;}
 a:hover {color:#4D97CD;}
@@ -27,7 +29,6 @@ footer {
 	padding-left: 5%;
 	padding-right: 5%;
 }/*heights should be deleted once you add content*/
-
 .copyright {
 	font-family: "Work Sans";
 	color: #FA9BBC;
@@ -35,17 +36,18 @@ footer {
 	font-weight: 600px;
 	
 }
-
 .footer-link {
 	font-size: 14px;
 	width: 100%;
 	margin-left: 14px;
 }
+.left {display: inline-block}
+.right{display: inline-block; float: right}
 
-.left {
-	display: inline-block; 
-}
+/*Lookbook CSS*/
+.lookbook {overflow:auto;margin-bottom:10px;}
+.leftpic {width:300px; height:276px;background-color:#e8cdcd; float:left; margin-left: 20px; margin-right: 20px;} 
+.centerpic {width:300px; height:276px; background-color:#e8cdcd; float:left; margin-right: 20px}
+.rightpic {width:300px; height:276px; background-color:#e8cdcd; float:left;}
 
-.right{
-	display: inline-block; float: right
-}
+.content {margin: auto;}
