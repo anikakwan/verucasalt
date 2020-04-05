@@ -45,9 +45,20 @@ footer {
 .right{display: inline-block; float: right}
 
 /*Lookbook CSS*/
-.lookbook {overflow:auto;margin-bottom:10px;}
-.leftpic {width:300px; height:276px;background-color:#e8cdcd; float:left; margin-left: 20px; margin-right: 20px;} 
+.lookbook {text-align: center; margin:0px;}
+.leftpic {width:300px; height:276px; background-color:#e8cdcd; float:left; margin-right: 20px;} 
 .centerpic {width:300px; height:276px; background-color:#e8cdcd; float:left; margin-right: 20px}
 .rightpic {width:300px; height:276px; background-color:#e8cdcd; float:left;}
 
-.content {margin: auto;}
+/*home page*/
+.slideshow {height:437px; background-color:#e8cdcd; margin-bottom:26px;} /*you will delete the height as soon as you add content. Width is not added since the slideshow expands to the width of the entire wrapper*/
+
+.featured-items {margin-bottom:10px;}
+.featured {width:316px; height:276px; margin-right:11px; float:left; background-color:#e8cdcd;}/*you will delete the height as soon as you add content*/
+.featured:last-child {margin-right:0px;}
+
+#content { 
+  margin: auto;
+  border: 2px solid #FC5A28;
+  padding: 10px;
+}
