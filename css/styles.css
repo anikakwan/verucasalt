@@ -50,15 +50,15 @@ footer {
 .centerpic {width:300px; height:276px; background-color:#e8cdcd; float:left; margin-right: 20px}
 .rightpic {width:300px; height:276px; background-color:#e8cdcd; float:left;}
 
-/*home page*/
-.slideshow {height:437px; background-color:#e8cdcd; margin-bottom:26px;} /*you will delete the height as soon as you add content. Width is not added since the slideshow expands to the width of the entire wrapper*/
-
-.featured-items {margin-bottom:10px;}
-.featured {width:316px; height:276px; margin-right:11px; float:left; background-color:#e8cdcd;}/*you will delete the height as soon as you add content*/
-.featured:last-child {margin-right:0px;}
-
+/*About Page*/
+.picture {width:300px; height:276px; background-color:#e8cdcd; float:left; margin-right: 20px;} 
+.text {width:300px; height:276px; background-color:#e8cdcd; float:left; margin-right: 20px}
+	
 #content { 
   margin: auto;
   border: 2px solid #FC5A28;
   padding: 10px;
 }
+
+/*home page*/
+.slideshow {height:437px; background-color:#e8cdcd; margin-bottom:26px;} /*you will delete the height as soon as you add content. Width is not added since the slideshow expands to the width of the entire wrapper*/
