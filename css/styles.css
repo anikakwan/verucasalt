@@ -9,7 +9,7 @@ body {font-family: 'Work Sans'; font-size:12px; margin-top:0;}
 .slideshow {height:437px; background-color:#e8cdcd; margin-bottom:26px;} /*you will delete the height as soon as you add content. Width is not added since the slideshow expands to the width of the entire wrapper*/
 
 /*CART*/
-#empty-cart {font-size: 20px; font-weight: 500; text-align: center; display: flex; justify-content: center; align-items: center; height: 200px;} 
+#empty-cart {font-size: 20px; font-weight: 500; text-align: center; display: flex; justify-content: center; align-items: center; height: 400px;} 
 
 #wrapper {width: 100%; margin: 0 auto;}
 #linked-logo {width: 300px;margin:0}
