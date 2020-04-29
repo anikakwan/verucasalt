@@ -5,9 +5,9 @@
 
 body {font-family: 'Work Sans'; font-size:12px; margin-top:0;}
 
-#empty-cart {font-size: 20px; font-weight: 500; text-align: center; display: flex; justify-content: center; align-items: center; height: 200px;
-  border: 2px solid #FC5A28;} /*delete border after*/
-#wrapper {width: 100%; background-color:antiquewhite; margin-left:auto; margin-right:auto;}/*can also be written as: margin: 0 auto;*/
+#empty-cart {font-size: 20px; font-weight: 500; text-align: center; display: flex; justify-content: center; align-items: center; height: 200px;}
+
+#wrapper {width: 100%; margin:0 auto;}
 #linked-logo {width: 300px;margin:0}
 header {height:155px; background-color:#ffffff;}/*heights should be deleted once you add content*/
 #logo {width:300px;margin:0 auto; vertical-align: middle}
@@ -20,23 +20,29 @@ a:link {color:#FC5A28; text-align:center; text-decoration:none;}
 a:visited {color:#FC5A28;}
 a:hover {color:#4D97CD;}
 
-#content {height:750px; background-color:#ffffff;}/*heights should be deleted once you add content*/
 
-footer {
+#content {
+	margin: auto;
+  	padding: 10px;}
+
+footer 
+{
 	height:44px;
 	background-color:#ffffff;
 	clear:both;
 	padding-left: 5%;
 	padding-right: 5%;
 }/*heights should be deleted once you add content*/
-.copyright {
+.copyright 
+{
 	font-family: "Work Sans";
 	color: #FA9BBC;
 	font-size: 14px;
 	font-weight: 600px;
 	
 }
-.footer-link {
+.footer-link 
+{
 	font-size: 14px;
 	width: 100%;
 	margin-left: 14px;
@@ -45,20 +51,76 @@ footer {
 .right{display: inline-block; float: right}
 
 /*Lookbook CSS*/
-.lookbook {text-align: center; margin:0px;margin-bottom: 10px;}
-.leftpic {width:300px; height:276px; background-color:#e8cdcd; float:left; margin-right: 20px;} 
-.centerpic {width:300px; height:276px; background-color:#e8cdcd; float:left; margin-right: 20px}
-.rightpic {width:300px; height:276px; background-color:#e8cdcd; float:left;}
+.lookbook {text-align: center; width: 1280px; margin:0 auto 10px auto;clear:both;/*add*/overflow:hidden;}
+/*consolidate*/
+.picture {width:300px; height:276px; background-color:#e8cdcd; float:left; margin-right: 20px;} 
+.picture:last-child {width:300px; height:276px; background-color:#e8cdcd; float:left;}
+
+/*SHOP ALL*/
+.all-items {
+	text-align: center;
+	width: 900px;
+	margin-right: 30px;
+	float:right;
+	/*clear:both;overflow:hidden*/}
+
+/*PRODUCTS*/
+.product {
+	width: 260px;
+	float:left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	/*flex: 1;
+	flex-basis: 200px;*/
+	display: inline-block; 
+} 
+
+.product-image {
+	height: 260px;
+	width: 260px;
+	background-color:#EC4578;
+	float:left;
+	margin-right: 30px;
+	/*flex: 1;
+	flex-basis: 200px;*/
+	display: inline-block; 
+} 
+
+.product-details {
+	height: 50px;
+	width: 260px;
+	float: left;
+	margin-right: 30px;
+	display: inline-block;
+	text-align: left;
+	
+}
+
 
 /*About Page*/
 .picture {width:300px; height:276px; background-color:#e8cdcd; float:left; margin-right: 20px;} 
 .text {width:300px; height:276px; background-color:#e8cdcd; float:left; margin-right: 20px}
 	
-#content { 
-  margin: auto;
-  border: 2px solid #FC5A28;
-  padding: 10px;
-}
 
 /*home page*/
 .slideshow {height:437px; background-color:#e8cdcd; margin-bottom:26px;} /*you will delete the height as soon as you add content. Width is not added since the slideshow expands to the width of the entire wrapper*/
+
+
+/*SIDE NAV*/
+#sidenav a:link {text-align:left; text-decoration:none;} 
+#sidenav a:visited {color:#FC5A28;}
+#sidenav a:hover {color:#4D97CD;}
+
+#sidenav {
+	height: 100%;
+	width: 150px;
+	position:relative;
+	margin-left: 50px;
+	margin-right: 30px;
+	float:left;
+	margin-top: 0px;
+}
+
+#sidenav li {
+	display: block;
+}
