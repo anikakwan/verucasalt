@@ -6,7 +6,41 @@
 body {font-family: 'Work Sans'; font-size:12px; margin-top:0;}
 
 /*HOME PAGE*/
-.slideshow {height:437px; background-color:#e8cdcd; margin-bottom:26px;} /*you will delete the height as soon as you add content. Width is not added since the slideshow expands to the width of the entire wrapper*/
+.slideshow {height:500px; margin-bottom:20px;} /*you will delete the height as soon as you add content. Width is not added since the slideshow expands to the width of the entire wrapper*/
+
+.rslides {
+  position: relative;
+  height: 500px;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
 
 /*MAIN NAV*/
 #wrapper {width: 100%; margin: 0 auto;}
@@ -245,3 +279,4 @@ h3 {
 p{
 	font-size: 14px;
 }
+

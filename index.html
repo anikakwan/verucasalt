@@ -6,6 +6,23 @@
 <title>Veruca Salt!</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
+  <script>
+   
+    $(function () 
+	  {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        maxwidth: 800,
+        speed: 300
+      });
+
+     
+    });
+  </script>	
+	
 </head>
 
 <body>
@@ -25,7 +42,15 @@
 </header>	
 	
 <div id="content">
-	<div class="slideshow">slideshow</div>
+	<div class="slideshow">
+	<ul class="rslides" id="slider1">
+  <li><img src="images/slideshow/1.jpg" alt=""></li>
+  <li><img src="images/slideshow/2.jpg" alt=""></li>
+  <li><img src="images/slideshow/3.jpg" alt=""></li>
+  </ul>
+	</div>
+	
+	
 </div>
 	
 <footer>
